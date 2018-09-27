@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "arrow-body-style": 0,
+    "import/prefer-default-export": 0,
+    "class-methods-use-this": 0,
+    "max-len": ["error", 100, 2, {
+      "ignoreComments": true,
+      "ignoreRegExpLiterals": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreUrls": true
+    }],
+    "no-underscore-dangle": "off",
+    "no-use-before-define": ["error", { "functions": false }],
+    "prefer-destructuring": ["error", {"object": true, "array": false}]
+  }
+}

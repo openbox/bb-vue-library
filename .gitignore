@@ -1,0 +1,11 @@
+# Dependency directory
+node_modules/
+
+# IntelliJ project files
+.idea/
+*.iws
+# vscode
+.vscode/
+
+# build
+dist/

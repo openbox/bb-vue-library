@@ -1,0 +1,47 @@
+{
+  "name": "@openbox/bb-javascript-library",
+  "version": "0.1.0",
+  "description": "This is an example repository for a simple Vue.js library.",
+  "main": "dist/bb-vue-library.common.js",
+  "module": "dist/bb-vue-library.esm.js",
+  "unpkg": "dist/bb-vue-library.js",
+  "jsdelivr": "dist/bb-vue-library.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openbox/bb-javascript-library"
+  },
+  "bugs": {
+    "url": "https://github.com/openbox/bb-javascript-library/issues"
+  },
+  "keywords": [
+    "bigbox",
+    "vue",
+    "library",
+    "template",
+    "example"
+  ],
+  "author": "Bigbox S.A.",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@vue/test-utils": "^1.0.0-beta.25",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0",
+    "rollup": "^0.66.2",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-vue": "^4.3.2",
+    "vue": "^2.5.17",
+    "vue-jest": "^2.6.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
